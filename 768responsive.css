@@ -1,0 +1,187 @@
+/* =====================================================
+   RESPONSIVE DARK MODE (max-width: 768px)
+   — Layout vertical, legible y fluido para móviles
+===================================================== */
+@media (max-width: 768px) {
+
+  /* ===== GENERAL ===== */
+  body {
+    background: radial-gradient(circle at top, #120c22, #1c1434);
+    color: #f1f1f1;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  /* ===== HEADER ===== */
+  .header {
+    background: rgba(25, 10, 40, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 8px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+    color: #d4af37;
+    font-weight: 600;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .hero-content {
+    width: 90%;
+    margin: auto;
+    background: rgba(20, 10, 35, 0.55);
+    border-radius: 20px;
+    padding: 18px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 10px 22px;
+  }
+
+  /* ===== SECCIONES ===== */
+  .tours-section,
+  .experiencias-section {
+    padding: 60px 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .search-bar {
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+  }
+
+  /* ===== GRID ===== */
+  .tours-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .tour-card {
+    width: 92%;
+    border-radius: 18px;
+    font-size: 0.85rem;
+  }
+
+  .tour-card img {
+    height: 200px;
+  }
+
+  .tour-card h3 {
+    font-size: 0.95rem;
+    margin: 12px 10px 5px;
+  }
+
+  .tour-card p {
+    font-size: 0.85rem;
+    padding: 0 12px 10px;
+  }
+
+  .btn-secondary {
+    font-size: 0.85rem;
+    padding: 8px 20px;
+  }
+
+  /* ===== BOTONES DE SECCIÓN ===== */
+  .section-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0 35px;
+  }
+
+  .section-buttons .btn-secondary {
+    background: #d4af37;
+    color: #1b1230;
+    padding: 9px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+  }
+
+  .section-buttons .btn-secondary:hover {
+    background: #fff;
+    color: #2e144e;
+    transform: scale(1.05);
+  }
+
+  /* ===== MODAL ===== */
+  .modal-content {
+    width: 90%;
+    padding: 15px;
+    font-size: 0.85rem;
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .modal-right {
+    align-items: center;
+    gap: 6px;
+  }
+
+  .modal-right .btn-secondary,
+  .modal-right .volver-btn {
+    width: 90%;
+    max-width: 260px;
+    margin: 0;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    background: #0f071b;
+    color: #ccc;
+    padding: 40px 20px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  /* ===== WHATSAPP ===== */
+  .whatsapp-btn {
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.3rem;
+    padding: 12px;
+  }
+}

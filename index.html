@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buenos Aires Visión</title>
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="detalle.css">
+  <link rel="stylesheet" href="768responsive.css">
+  <link rel="stylesheet" href="1024responsive.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- Botón WhatsApp flotante -->
+  <a href="https://wa.me/5491176158609" target="_blank" class="whatsapp-btn" title="Reservar por WhatsApp">💬</a>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#tours">Tours</a></li>
+          <li><a href="#experiencias">Experiencias</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO con video -->
+  <section class="hero">
+    <video autoplay muted loop class="background-video">
+      <source src="assets/video-buenosaires.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Buenos Aires Visión</h1>
+      <p>Viví experiencias únicas para descubrir lo mejor de Buenos Aires</p>
+      <a href="#tours" class="btn-primary">Ver Tours</a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN TOURS -->
+  <section id="tours" class="tours-section">
+    <h2>Explorá Nuestros Tours</h2>
+
+    <div class="section-buttons">
+      <a href="#experiencias" class="btn-secondary">Ver Experiencias</a>
+      <a href="#contacto" class="btn-secondary">Contacto</a>
+    </div>
+
+    <input type="text" id="search" placeholder="Buscar un tour o experiencia..." class="search-bar">
+    <div id="tours-container" class="tours-grid"></div>
+  </section>
+
+  <!-- SECCIÓN EXPERIENCIAS -->
+  <section id="experiencias" class="experiencias-section">
+    <h2>Experiencias Únicas</h2>
+
+    <div class="section-buttons">
+      <a href="#tours" class="btn-secondary">Ver Tours</a>
+      <a href="#contacto" class="btn-secondary">Contacto</a>
+    </div>
+
+    <p>Vinos, asado, tango, estancias y mucho más. Viví Buenos Aires con todos los sentidos.</p>
+    <div id="experiencias-container" class="tours-grid"></div>
+  </section>
+
+  <!-- MODAL DETALLE DE TOUR -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img id="modal-img" src="" alt="Tour Imagen" class="modal-img">
+      <h3 id="modal-nombre"></h3>
+      <p id="modal-descripcion"></p>
+      <ul id="modal-itinerario"></ul>
+      <h4>Incluye:</h4>
+      <ul id="modal-incluye"></ul>
+      <p><strong>Duración:</strong> <span id="modal-duracion"></span></p>
+      <p><strong>Salida:</strong> <span id="modal-salida"></span></p>
+      <p><strong>Idioma:</strong> <span id="modal-idioma"></span></p>
+      <a id="modal-reservar" href="#" target="_blank" class="btn-secondary">Reservar por WhatsApp</a>
+      <button id="modal-volver" class="btn-secondary volver-btn">⬅️ Volver</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="footer">
+    <div class="footer-content">
+      <p>EVT Legajo Nº6414</p>
+      <p>📞 +54 9 11 7615-8609 · ✉️ info@buenosairesvision.com</p>
+      <p>© 2025 Buenos Aires Visión · Todos los derechos reservados</p>
+    </div>
+
+    <div class="section-buttons">
+      <a href="#tours" class="btn-secondary">Volver Arriba</a>
+      <a href="https://wa.me/5491176158609" target="_blank" class="btn-secondary">Reservar</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

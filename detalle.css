@@ -1,0 +1,342 @@
+/* =====================================================
+   DETALLE DEL TOUR (MODAL) - DARK THEME
+===================================================== */
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal.show {
+  display: flex;
+  animation: fadeInModal 0.4s ease;
+}
+
+@keyframes fadeInModal {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.modal-content {
+  background: rgba(25, 10, 40, 0.95);
+  color: #fff;
+  border-radius: 25px;
+  max-width: 900px;
+  width: 90%;
+  padding: 30px 35px;
+  position: relative;
+  box-shadow: 0 15px 45px rgba(0,0,0,0.6);
+  font-family: "Poppins", sans-serif;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+/* Close */
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #d4af37;
+  transition: 0.3s;
+}
+
+.close-modal:hover {
+  color: #fff;
+}
+
+/* Estructura en columnas */
+.modal-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.modal-left img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.modal-left h3 {
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.modal-right h4 {
+  color: #d4af37;
+  margin-top: 10px;
+}
+
+.modal-right ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 8px 0 15px;
+}
+
+.modal-right ul li {
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+.modal p strong {
+  color: #d4af37;
+}
+
+.btn-secondary {
+  display: inline-block;
+  background: #d4af37;
+  color: #1b1230;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.btn-secondary:hover {
+  background: #fff;
+  color: #2e144e;
+}
+.volver-btn {
+  background: transparent;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.volver-btn:hover {
+  background: #d4af37;
+  color: #1b1230;
+}
+
+/* Añadir al final de detalle.css */
+
+/* =====================================================
+   RESPONSIVE DARK MODE (max-width: 1024px)
+   — Full vertical scroll layout
+===================================================== */
+@media (max-width: 1024px) {
+
+  /* ===== GENERAL ===== */
+  body {
+    background: radial-gradient(circle at top, #120c22, #1c1434);
+    color: #eaeaea;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  main, section {
+    display: block;
+    width: 100%;
+  }
+
+  /* ===== NAVBAR ===== */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(25, 10, 40, 0.85);
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    z-index: 1000;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    background: none;
+    box-shadow: none;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #d4af37;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    flex-direction: column;
+  }
+
+  .hero-content {
+    width: 90%;
+    margin: auto;
+    background: rgba(20, 10, 35, 0.7);
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+
+  /* ===== SECCIONES ===== */
+  .tours-section,
+  .experiencias-section {
+    padding: 70px 25px;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+  }
+
+  .search-bar {
+    width: 90%;
+    max-width: 420px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* ===== GRID DE CARDS (vertical 100%) ===== */
+  .tours-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .tour-card {
+    width: 90%;
+    max-width: 480px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+
+  .tour-card img {
+    height: 220px;
+  }
+
+  .tour-card h3 {
+    font-size: 1rem;
+    margin: 15px 10px 5px;
+  }
+
+  .tour-card p {
+    font-size: 0.9rem;
+    padding: 0 15px 10px;
+  }
+
+  .btn-secondary {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+  }
+
+  /* ===== MODAL ===== */
+  .modal-content {
+    width: 90%;
+    background: rgba(20, 10, 35, 0.95);
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    background: #0f071b;
+    color: #ccc;
+    padding: 50px 25px;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  /* ===== BOTONES FLOTANTES ===== */
+  .whatsapp-btn {
+    bottom: 18px;
+    right: 18px;
+    font-size: 1.4rem;
+    padding: 12px;
+  }
+}
+/* ============================
+   CENTRAR BOTONES EN EL MODAL
+============================ */
+.modal-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Que los botones mantengan tamaño coherente */
+.modal-right .btn-secondary,
+.modal-right .volver-btn {
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+}
+/* ============================
+   CENTRAR Y UNIR BOTONES EN EL MODAL
+============================ */
+.modal-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px; /* menor separación entre botones */
+  margin-top: 15px;
+}
+
+/* Ajustar separación de contenido anterior */
+.modal-right p:last-of-type {
+  margin-bottom: 10px;
+}
+
+/* Uniformar estilo de los botones */
+.modal-right .btn-secondary,
+.modal-right .volver-btn {
+  width: 80%;
+  max-width: 280px;
+  text-align: center;
+  margin: 0; /* eliminamos márgenes extra */
+}
+
+/* Opcional: mejorar feedback visual */
+.volver-btn {
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  transition: 0.3s;
+}
+
+.volver-btn:hover {
+  background: #d4af37;
+  color: #1b1230;
+}

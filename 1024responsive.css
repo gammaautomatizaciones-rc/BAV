@@ -1,0 +1,172 @@
+/* =====================================================
+   RESPONSIVE DARK MODE (max-width: 1024px)
+   — Limpio, vertical y con botones integrados
+===================================================== */
+@media (max-width: 1024px) {
+
+  /* ===== GENERAL ===== */
+  body {
+    background: radial-gradient(circle at top, #120c22, #1c1434);
+    color: #eaeaea;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  /* ===== HEADER ===== */
+  .header {
+    background: rgba(25, 10, 40, 0.9);
+    backdrop-filter: blur(8px);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 22px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #d4af37;
+    transition: 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #fff;
+  }
+
+  /* ===== HERO ===== */
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .hero-content {
+    margin-top: 0;
+    background: rgba(20, 10, 35, 0.55);
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 550px;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  /* ===== SECCIONES ===== */
+  .tours-section,
+  .experiencias-section {
+    padding: 70px 25px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  .search-bar {
+    width: 90%;
+    max-width: 420px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* ===== GRID ===== */
+  .tours-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .tour-card {
+    width: 90%;
+    max-width: 480px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+
+  .tour-card img {
+    height: 220px;
+  }
+
+  /* ===== BOTONES DE SECCIÓN ===== */
+  .section-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0 40px;
+  }
+
+  .section-buttons .btn-secondary {
+    background: #d4af37;
+    color: #1b1230;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+
+  .section-buttons .btn-secondary:hover {
+    background: #fff;
+    color: #2e144e;
+    transform: scale(1.05);
+  }
+
+  /* ===== MODAL ===== */
+  .modal-content {
+    width: 90%;
+    background: rgba(20, 10, 35, 0.95);
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .modal-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .modal-right .btn-secondary,
+  .modal-right .volver-btn {
+    width: 80%;
+    max-width: 280px;
+    text-align: center;
+    margin: 0;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    background: #0f071b;
+    color: #ccc;
+    padding: 50px 25px;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  /* ===== WHATSAPP ===== */
+  .whatsapp-btn {
+    bottom: 25px;
+    right: 25px;
+    font-size: 1.5rem;
+    padding: 14px;
+  }
+}

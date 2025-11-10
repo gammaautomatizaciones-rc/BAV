@@ -1,0 +1,437 @@
+[
+  {
+    "categoria": "City Tour",
+    "nombre": "Tour Clásico de Buenos Aires (4 HS)",
+    "duracion": "4 hs",
+    "salida": "09:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Recorrido panorámico por los barrios históricos y modernos de Buenos Aires. Ideal para una primera experiencia completa en la ciudad.",
+    "itinerario": [
+      "Obelisco y Av. 9 de Julio",
+      "Plaza de Mayo: Casa Rosada, Cabildo y Catedral Metropolitana",
+      "San Telmo: barrio histórico y tango callejero",
+      "La Boca y Caminito",
+      "Puerto Madero: Puente de la Mujer",
+      "Recoleta: Basílica del Pilar y Cementerio",
+      "Palermo: Bosques de Palermo y Rosedal"
+    ],
+    "incluye": [
+      "Traslados ida y vuelta",
+      "Guía bilingüe (es/en/pt)",
+      "Paradas fotográficas"
+    ],
+    "imagen": "imagenes/city-classic-4hs.jpg"
+  },
+  {
+    "categoria": "City Tour Premium",
+    "nombre": "City Tour Premium con Teatro Colón y Navegación",
+    "duracion": "8 hs",
+    "salida": "09:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "La experiencia más completa en Buenos Aires: recorré los puntos icónicos, visitá el Teatro Colón y navegá por el Río de la Plata.",
+    "itinerario": [
+      "Obelisco y Av. 9 de Julio",
+      "Teatro Colón (visita guiada)",
+      "Plaza de Mayo y Casa Rosada",
+      "San Telmo y La Boca",
+      "Puerto Madero y Puente de la Mujer",
+      "Recoleta y Palermo",
+      "Navegación por el Río de la Plata"
+    ],
+    "incluye": [
+      "Traslado ida y vuelta",
+      "Entrada al Teatro Colón",
+      "Paseo en embarcación con audioguía",
+      "Guía bilingüe"
+    ],
+    "imagen": "imagenes/city-premium.jpg"
+  },
+  {
+    "categoria": "Tigre y Delta",
+    "nombre": "Tour Tigre y Delta del Paraná (5 HS)",
+    "duracion": "5 hs",
+    "salida": "09:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Recorrido por San Isidro y Tigre con navegación por el Delta del Paraná. Perfecto para disfrutar naturaleza y arquitectura ribereña.",
+    "itinerario": [
+      "San Isidro: Catedral y Plaza Mitre",
+      "Puerto de Frutos",
+      "Navegación por el Delta del Paraná",
+      "Museo de Arte Tigre (vista exterior)"
+    ],
+    "incluye": [
+      "Traslados ida y vuelta",
+      "Navegación en lancha moderna",
+      "Guía bilingüe"
+    ],
+    "imagen": "imagenes/tigre-delta.jpg"
+  },
+  {
+    "categoria": "Tigre y Delta Premium",
+    "nombre": "Tigre Premium Full Day con Almuerzo en Isla",
+    "duracion": "7 hs",
+    "salida": "09:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Tour exclusivo por Tigre, San Isidro y navegación extendida por el Delta con almuerzo de tres pasos en restaurante isleño.",
+    "itinerario": [
+      "San Isidro: barrio histórico",
+      "Catedral y Plaza Mitre",
+      "Puerto de Frutos",
+      "Navegación privada por el Delta",
+      "Almuerzo en restaurante de isla"
+    ],
+    "incluye": [
+      "Transporte privado",
+      "Navegación en embarcación moderna",
+      "Almuerzo de tres pasos sin bebidas",
+      "Guía bilingüe"
+    ],
+    "imagen": "imagenes/tigre-premium.jpg"
+  },
+  {
+    "categoria": "Experiencia Gastronómica",
+    "nombre": "Experiencia de Asado Tradicional Argentino",
+    "duracion": "6 hs",
+    "salida": "10:00 hs desde punto designado",
+    "idioma": "Español / Inglés",
+    "descripcion": "Viví el ritual del asado argentino con un chef local: preparación, degustación y maridaje con vinos seleccionados.",
+    "itinerario": [
+      "Recepción con bebida de bienvenida",
+      "Charla sobre historia del asado",
+      "Preparación de empanadas, asado y ensaladas típicas",
+      "Clase de mate y pastelitos argentinos"
+    ],
+    "incluye": [
+      "Almuerzo de tres pasos",
+      "Bebidas sin alcohol",
+      "Degustación de vinos",
+      "Chef anfitrión y guía gastronómico"
+    ],
+    "imagen": "imagenes/asado.jpg"
+  },
+  {
+    "categoria": "Experiencia Enológica",
+    "nombre": "Tour Viñedo Gamboa",
+    "duracion": "7 hs",
+    "salida": "10:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés",
+    "descripcion": "Descubrí el enoturismo en Buenos Aires. Recorrido por viñedos, degustaciones guiadas y almuerzo gourmet.",
+    "itinerario": [
+      "Traslado a Campana",
+      "Recorrido por viñedos y bodega",
+      "Degustación de vinos premium",
+      "Almuerzo de tres pasos en restaurante del viñedo"
+    ],
+    "incluye": [
+      "Transporte ida y vuelta",
+      "Visita guiada al viñedo",
+      "Degustación de vinos",
+      "Almuerzo gourmet"
+    ],
+    "imagen": "imagenes/vinedo-gamboa.jpg"
+  },
+  {
+    "categoria": "Estancias Argentinas",
+    "nombre": "Día de Campo en Estancia Santa Susana",
+    "duracion": "7 hs",
+    "salida": "10:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Una jornada de campo con asado criollo, show de danzas folclóricas y destrezas gauchas.",
+    "itinerario": [
+      "Recepción con empanadas y vino",
+      "Paseo en carreta o a caballo",
+      "Almuerzo criollo con show",
+      "Destrezas gauchas y juegos tradicionales"
+    ],
+    "incluye": [
+      "Traslados ida y vuelta",
+      "Almuerzo de tres pasos",
+      "Show folclórico",
+      "Actividades rurales"
+    ],
+    "imagen": "imagenes/santa-susana.jpg"
+  },
+  {
+    "categoria": "Estancias Argentinas",
+    "nombre": "Estancia Don Silvano",
+    "duracion": "7 hs",
+    "salida": "10:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Disfrutá de un día campestre con almuerzo criollo, paseo a caballo y destrezas gauchas.",
+    "itinerario": [
+      "Recepción con empanadas y vino",
+      "Visita a la granja y paseos rurales",
+      "Almuerzo y show tradicional",
+      "Actividades gauchas y música en vivo"
+    ],
+    "incluye": [
+      "Transporte privado",
+      "Almuerzo completo",
+      "Bebidas sin alcohol",
+      "Shows y actividades"
+    ],
+    "imagen": "imagenes/don-silvano.jpg"
+  },
+  {
+    "categoria": "Estancias Argentinas",
+    "nombre": "Estancia La Candelaria",
+    "duracion": "8 hs",
+    "salida": "09:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Visitá un castillo francés en Lobos con espectáculos gauchescos y un entorno natural impresionante.",
+    "itinerario": [
+      "Traslado a Lobos",
+      "Recepción con empanadas y vino",
+      "Visita guiada al castillo y jardines",
+      "Almuerzo con show de danzas y destrezas"
+    ],
+    "incluye": [
+      "Transporte ida y vuelta",
+      "Almuerzo criollo",
+      "Guía y shows",
+      "Actividades rurales"
+    ],
+    "imagen": "imagenes/la-candelaria.jpg"
+  },
+  {
+    "categoria": "Walking Tour",
+    "nombre": "San Telmo Histórico",
+    "duracion": "3 hs",
+    "salida": "10:00 hs desde Pirámide de Mayo",
+    "idioma": "Español / Inglés",
+    "descripcion": "Recorré el barrio más antiguo de Buenos Aires: historia, cultura y tango callejero.",
+    "itinerario": [
+      "Edificio Otto Wulff",
+      "Paseo de la Historieta y Mafalda",
+      "Casa Mínima",
+      "Plaza Dorrego y feria de antigüedades"
+    ],
+    "incluye": [
+      "Guía especializado",
+      "Entrada a museos seleccionados"
+    ],
+    "imagen": "imagenes/san-telmo.jpg"
+  },
+  {
+    "categoria": "Walking Tour",
+    "nombre": "Street Art Palermo Soho",
+    "duracion": "3 hs",
+    "salida": "15:00 hs desde Plaza Serrano",
+    "idioma": "Español / Inglés",
+    "descripcion": "Descubrí el arte urbano de Buenos Aires en las calles más coloridas de Palermo Soho.",
+    "itinerario": [
+      "Pasaje Russel y Santa Rosa",
+      "Calle Costa Rica y Armenia",
+      "Murales icónicos y artistas locales"
+    ],
+    "incluye": [
+      "Guía especializado en arte urbano"
+    ],
+    "imagen": "imagenes/street-art.jpg"
+  },
+  {
+    "categoria": "Walking Tour",
+    "nombre": "Tour Temático Eva Perón",
+    "duracion": "3 hs",
+    "salida": "10:00 hs desde Recoleta",
+    "idioma": "Español / Inglés",
+    "descripcion": "Una experiencia dedicada a la vida y legado de Evita. Lugares emblemáticos y anécdotas históricas.",
+    "itinerario": [
+      "Palacio Duhau y Hotel Alvear",
+      "Basílica del Pilar y Cementerio de la Recoleta",
+      "Museo del Libro y de la Lengua"
+    ],
+    "incluye": [
+      "Guía especializado en historia argentina"
+    ],
+    "imagen": "imagenes/eva-peron.jpg"
+  },
+  {
+    "categoria": "Tour Religioso",
+    "nombre": "Tour a Luján",
+    "duracion": "7 hs",
+    "salida": "09:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Conocé la Basílica de Nuestra Señora de Luján y viví un día de espiritualidad y cultura.",
+    "itinerario": [
+      "Visita a la Basílica de Luján",
+      "Cantos gregorianos en el monasterio",
+      "Almuerzo en convento de monjas",
+      "Visita al Museo del Transporte"
+    ],
+    "incluye": [
+      "Transporte ida y vuelta",
+      "Guía acompañante",
+      "Almuerzo tradicional"
+    ],
+    "imagen": "imagenes/lujan.jpg"
+  },
+  {
+    "categoria": "Tour Cultural",
+    "nombre": "Tour a La Plata",
+    "duracion": "5 hs",
+    "salida": "10:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Explorá la ciudad planificada de La Plata con su Catedral, Museo y Paseo del Bosque.",
+    "itinerario": [
+      "Plaza Moreno y Catedral de La Plata",
+      "Museo de Ciencias Naturales",
+      "Paseo del Bosque y Observatorio Astronómico"
+    ],
+    "incluye": [
+      "Transporte ida y vuelta",
+      "Entradas a Catedral y Museo",
+      "Guía bilingüe"
+    ],
+    "imagen": "imagenes/la-plata.jpg"
+  },
+  {
+    "categoria": "Cultura y Tango",
+    "nombre": "Tour de Milongas Porteñas",
+    "duracion": "4 hs",
+    "salida": "20:00 hs desde punto designado",
+    "idioma": "Español / Inglés",
+    "descripcion": "Recorrido nocturno por las milongas más emblemáticas de Buenos Aires, con clase de tango incluida.",
+    "itinerario": [
+      "El Beso y Salón Canning",
+      "Clase introductoria de tango",
+      "Baile en vivo y socialización"
+    ],
+    "incluye": [
+      "Entrada a milonga",
+      "Clase de tango para principiantes",
+      "Guía acompañante"
+    ],
+    "imagen": "imagenes/milonga.jpg"
+  },
+  {
+    "categoria": "Cultura y Noche",
+    "nombre": "Tour de Bares Ocultos",
+    "duracion": "4 hs",
+    "salida": "20:00 hs desde punto designado",
+    "idioma": "Español / Inglés",
+    "descripcion": "Un recorrido por los speakeasies más exclusivos de la ciudad: coctelería de autor, música y estilo de los años 20.",
+    "itinerario": [
+      "Frank’s Bar",
+      "Nicky Harrison",
+      "The Hole"
+    ],
+    "incluye": [
+      "2 consumiciones con alcohol",
+      "Guía acompañante",
+      "Transporte entre bares"
+    ],
+    "imagen": "imagenes/bares-ocultos.jpg"
+  },
+  {
+    "categoria": "Fútbol y Pasión",
+    "nombre": "Tour de Estadios Boca y River",
+    "duracion": "4 hs",
+    "salida": "10:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Portugués",
+    "descripcion": "Visitá los estadios más famosos de Argentina, La Bombonera y el Monumental, con acceso a los museos oficiales.",
+    "itinerario": [
+      "Museo de la Pasión Boquense (Boca Juniors)",
+      "Estadio Monumental (River Plate)",
+      "Museo River Plate"
+    ],
+    "incluye": [
+      "Transporte ida y vuelta",
+      "Entradas a ambos museos",
+      "Guía especializado"
+    ],
+    "imagen": "imagenes/estadios.jpg"
+  },
+  {
+    "categoria": "Fútbol y Pasión",
+    "nombre": "Tour Diego Maradona",
+    "duracion": "5 hs",
+    "salida": "09:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés",
+    "descripcion": "Seguí los pasos de Maradona por Buenos Aires: su casa, clubes y lugares icónicos.",
+    "itinerario": [
+      "Iglesia del Santísimo Sacramento",
+      "Club Argentinos Juniors y Museo",
+      "La Bombonera y Casa de Maradona"
+    ],
+    "incluye": [
+      "Transporte ida y vuelta",
+      "Guía experto en fútbol argentino"
+    ],
+    "imagen": "imagenes/maradona.jpg"
+  },
+  {
+    "categoria": "Gastronomía y Río",
+    "nombre": "Cena Gourmet en Barco Privado",
+    "duracion": "5 hs",
+    "salida": "20:00 hs desde Puerto Madero",
+    "idioma": "Español / Inglés",
+    "descripcion": "Navegación privada por el Delta con cena gourmet de tres pasos y maridaje de vinos.",
+    "itinerario": [
+      "Embarque en barco privado",
+      "Cena gourmet con vista al río",
+      "Navegación por los 7 ríos del Delta"
+    ],
+    "incluye": [
+      "Cena completa con bebidas",
+      "Tripulación y servicio personalizado"
+    ],
+    "imagen": "imagenes/cena-barco.jpg"
+  },
+  {
+    "categoria": "Cultura Judía",
+    "nombre": "Tour de Cultura Judía e Israelí",
+    "duracion": "5 hs",
+    "salida": "10:00 hs desde hotel o punto de encuentro",
+    "idioma": "Español / Inglés / Hebreo",
+    "descripcion": "Conocé la herencia judía en Buenos Aires: sinagogas, AMIA, museos y gastronomía típica.",
+    "itinerario": [
+      "Sinagoga Libertad",
+      "Museo del Holocausto",
+      "Plaza Israel y AMIA",
+      "Almuerzo en restaurante Benaim"
+    ],
+    "incluye": [
+      "Transporte ida y vuelta",
+      "Guía especializado",
+      "Entradas y almuerzo"
+    ],
+    "imagen": "imagenes/cultura-judia.jpg"
+  },
+  {
+    "categoria": "Turismo Social",
+    "nombre": "Tour Barrio Mugica (Villa 31)",
+    "duracion": "3 hs",
+    "salida": "10:00 hs desde Retiro",
+    "idioma": "Español / Inglés",
+    "descripcion": "Una mirada auténtica a la Villa 31: historia, arte urbano y proyectos sociales guiados por residentes.",
+    "itinerario": [
+      "Recorrido histórico por Villa 31",
+      "Murales y cooperativas locales",
+      "Visita a proyectos sociales"
+    ],
+    "incluye": [
+      "Guía local residente",
+      "Aporte solidario incluido"
+    ],
+    "imagen": "imagenes/villa31.jpg"
+  },
+  {
+    "categoria": "Turismo Social",
+    "nombre": "Tour Isla Maciel: La Otra Isla",
+    "duracion": "3 hs",
+    "salida": "14:00 hs desde La Boca",
+    "idioma": "Español / Inglés",
+    "descripcion": "Explorá la cultura popular de Isla Maciel: arte urbano, historia y comunidad local.",
+    "itinerario": [
+      "Charla introductoria y contexto histórico",
+      "Recorrido por calles y murales",
+      "Visita a talleres y cooperativas"
+    ],
+    "incluye": [
+      "Guía comunitario",
+      "Seguro y transporte"
+    ],
+    "imagen": "imagenes/isla-maciel.jpg"
+  }
+]
