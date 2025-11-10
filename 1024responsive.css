@@ -1,44 +1,11 @@
-/* =====================================================
-   RESPONSIVE DARK MODE (max-width: 1024px)
-   — Limpio, vertical y con botones integrados
-===================================================== */
 @media (max-width: 1024px) {
 
-  /* ===== GENERAL ===== */
   body {
     background: radial-gradient(circle at top, #120c22, #1c1434);
     color: #eaeaea;
     font-size: 0.95rem;
     line-height: 1.5;
     overflow-x: hidden;
-  }
-
-  /* ===== HEADER ===== */
-  .header {
-    background: rgba(25, 10, 40, 0.9);
-    backdrop-filter: blur(8px);
-    padding: 10px 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-
-  .nav-links {
-    flex-direction: row;
-    justify-content: center;
-    gap: 22px;
-  }
-
-  .nav-links a {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #d4af37;
-    transition: 0.3s;
-  }
-
-  .nav-links a:hover {
-    color: #fff;
   }
 
   /* ===== HERO ===== */
